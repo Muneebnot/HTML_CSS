@@ -20,10 +20,10 @@ Each project is organized in its own folder with its source code and a README ex
 ## 📝 Structure
 
 ProjectFolderName/ — contains a project folder with all HTML, CSS, and asset files
-index.html — main HTML file
-style.css — project-specific CSS file
-README.md — project-specific README
-README.md — this main repository README
+- index.html — main HTML file
+- style.css — project-specific CSS file
+- README.md — project-specific README
+- README.md — this main repository README
 
 
 
