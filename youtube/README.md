@@ -32,7 +32,7 @@ The goal of this project was to practice front-end fundamentals by replicating t
 
 📸 **Demo**  
 
-![YouTube Clone Demo](gif/demo.gif)  
+![YouTube Clone Demo](gif/gif.gif)  
 
 ---
 
