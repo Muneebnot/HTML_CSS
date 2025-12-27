@@ -50,7 +50,7 @@ rock-paper-scissors/
    git clone https://github.com/your-username/rock-paper-scissors.git
 
 
-🎯 How the Game Works
+## 🎯 How the Game Works
 
 User selects Rock, Paper, or Scissors
 
@@ -66,7 +66,7 @@ Paper beats Rock
 
 Score updates automatically and is saved in browser storage
 
-🔁 Reset Score
+## 🔁 Reset Score
 
 Click the Reset Score button to:
 
@@ -75,7 +75,7 @@ Clear wins, losses, and ties
 Remove saved data from localStorage
 
 
-📌 Learning Purpose
+## 📌 Learning Purpose
 
 This project is ideal for:
 
