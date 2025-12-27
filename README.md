@@ -1,6 +1,6 @@
-# HTML-CSS-LAB 💻
+# HTML-CSS-JAVASCRIPT LAB 💻
 
-This repository contains all my HTML and CSS learning projects.  
+This repository contains all my HTML,CSS AND JAVASCRIPT learning projects.  
 Each folder inside this repo corresponds to a separate project or UI experiment I create while learning web development.
 
 ## 📂 Projects
