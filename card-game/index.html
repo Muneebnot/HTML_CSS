@@ -106,11 +106,11 @@
   {
     for(let i=array1.length-1;i>0;i--) {
       let j = Math.floor(Math.random()*(i+1));
-      // Swap images
+      
       let tempImg = array1[i];
       array1[i] = array1[j];
       array1[j] = tempImg;
-      // Swap types
+      
       let tempType = array2[i];
       array2[i] = array2[j];
       array2[j] = tempType;
@@ -134,7 +134,7 @@
       img.src = images[index];
     }, 300);
 
-    // Check if it's a bad card
+   
     if(types[index] === "bad")
     {
       document.querySelector(".message").innerText = "GAME OVER 💀";
@@ -170,4 +170,5 @@
 
 </body>
 </html>
+
 
