@@ -4,7 +4,8 @@
   <title> Card game</title>
 
   <style>
-    body {
+    body 
+    {
       background: black;
       color: white;
       font-family: Arial;
@@ -14,18 +15,21 @@
       background-repeat: no-repeat;
     }
 
-    .board {
+    .board 
+    {
       display: flex;
       justify-content: center;
       gap: 15px;
       margin-top: 30px;
     }
 
-    .card {
-      perspective: 600px; /* for 3D flip effect */
+    .card
+    {
+      perspective: 600px; 
     }
 
-    .card img {
+    .card img
+    {
       width: 230px;
       height: 300px;
       border: 2px solid red;
@@ -34,11 +38,13 @@
       transition: transform 0.6s;
     }
 
-    .card.rotated img {
+    .card.rotated img 
+    {
       transform: rotateY(180deg);
     }
 
-    .message {
+    .message 
+    {
       font-size: 80px;        
       font-weight: bold;
       color: white;
@@ -46,17 +52,20 @@
       text-align: center;
     }
 
-    .notice {
+    .notice 
+    {
       color: rgb(237, 208, 208);
     }
 
-    .scores {
+    .scores
+    {
       color: black;
       font-size: 25px;
       margin-top: 20px;
     }
 
-    .reset-btn {
+    .reset-btn
+    {
       padding: 10px 20px;
       font-size: 18px;
       cursor: pointer;
@@ -93,7 +102,8 @@
   let score = 0;
   let gameOver = false;
 
-  function shuffle(array1,array2) {
+  function shuffle(array1,array2)
+  {
     for(let i=array1.length-1;i>0;i--) {
       let j = Math.floor(Math.random()*(i+1));
       // Swap images
@@ -109,25 +119,29 @@
 
   shuffle(images, types);
 
-  function flip(index) {
+  function flip(index)
+  {
     if(gameOver) return;
 
     let card = document.getElementsByClassName("card")[index];
     let img = document.querySelectorAll(".card-img")[index];
 
-    // Add rotation animation
+    
     card.classList.add("rotated");
 
-    // Change image mid-rotation
+   
     setTimeout(function() {
       img.src = images[index];
     }, 300);
 
     // Check if it's a bad card
-    if(types[index] === "bad") {
+    if(types[index] === "bad")
+    {
       document.querySelector(".message").innerText = "GAME OVER 💀";
       gameOver = true;
-    } else {
+    } 
+    else
+    {
       score++;
       document.querySelector(".score-number").innerText = score;
 
@@ -156,3 +170,4 @@
 
 </body>
 </html>
+
